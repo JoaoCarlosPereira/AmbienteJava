@@ -2,11 +2,9 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="br.edu.unoesc.smo.aulaOO01.test.ContaTest"/>
 <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="br.edu.unoesc.smo.aulaOO.Agencia"/>
 <fullyQualifiedTypeName name="br.edu.unoesc.smo.aulaOO.Cliente"/>
 <fullyQualifiedTypeName name="org.omg.PortableInterceptor.SYSTEM_EXCEPTION"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="br.edu.unoesc.smo.aulaOO.Conta"/>
 <fullyQualifiedTypeName name="br.edu.unoesc.smo.aulaOO.calculadora.Operacao"/>
@@ -24,4 +22,26 @@
 <fullyQualifiedTypeName name="br.edu.unoesc.smo.aulaOO.srp.Funcionario"/>
 <fullyQualifiedTypeName name="org.junit.Test"/>
 <fullyQualifiedTypeName name="projeto1.Aluno"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+<fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
+<fullyQualifiedTypeName name="javax.persistence.Id"/>
+<fullyQualifiedTypeName name="javax.persistence.Column"/>
+<fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+<fullyQualifiedTypeName name="br.edu.unoescsmo.bootweb.repository.PessoaRepository"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseBody"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+<fullyQualifiedTypeName name="br.edu.unoescsmo.bootweb.regras.PessoaPadrao"/>
+<fullyQualifiedTypeName name="br.edu.unoescsmo.bootweb.regras.PessoaRegra"/>
+<fullyQualifiedTypeName name="java.util.stream.Collector"/>
+<fullyQualifiedTypeName name="org.yaml.snakeyaml.constructor.Construct"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.springframework.data.jpa.repository.Query"/>
+<fullyQualifiedTypeName name="br.edu.unoescsmo.bootweb.model.Pessoa"/>
+<fullyQualifiedTypeName name="org.jboss.logging.Param"/>
+<fullyQualifiedTypeName name="org.springframework.data.repository.query.Param"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>

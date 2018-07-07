@@ -1,0 +1,17 @@
+package br.edu.unoescsmo.bootweb.repository;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
+
+import br.edu.unoescsmo.bootweb.model.Pessoa;
+
+public interface PessoaRepository extends JpaRepository<Pessoa, Long> {
+   
+	List<Pessoa> findByNomeLike(String nome);
+	
+	@Query("select p from pessoa p where p.cpf = :cpf")
+	List<Pessoa> porCpf(@Param("cpf") String cpf);
+}
