@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="br.edu.unoesc.smo.aulaOO01.test.ContaTest"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="br.edu.unoesc.smo.aulaOO.Agencia"/>
+<fullyQualifiedTypeName name="br.edu.unoesc.smo.aulaOO.Cliente"/>
+<fullyQualifiedTypeName name="org.omg.PortableInterceptor.SYSTEM_EXCEPTION"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="br.edu.unoesc.smo.aulaOO.Conta"/>
+<fullyQualifiedTypeName name="br.edu.unoesc.smo.aulaOO.calculadora.Operacao"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="br.edu.unoesc.smo.aulaOO.calculadora.Main"/>
+<fullyQualifiedTypeName name="br.edu.unoesc.smo.aulaOO.calculadora.Soma"/>
+<fullyQualifiedTypeName name="br.edu.unoesc.smo.aulaOO.calculadora.Subtracao"/>
+<fullyQualifiedTypeName name="br.edu.unoesc.smo.aulaOO.Poupanca"/>
+<fullyQualifiedTypeName name="br.edu.unoesc.smo.aulaOO.Corrente"/>
+<fullyQualifiedTypeName name="java.lang.Boolean"/>
+<fullyQualifiedTypeName name="br.edu.unoesc.smo.aulaOO.srp.Cargo"/>
+<fullyQualifiedTypeName name="java.lang.IllegalAccessException"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="br.edu.unoesc.smo.aulaOO.srp.RegraCalculo"/>
+<fullyQualifiedTypeName name="br.edu.unoesc.smo.aulaOO.srp.Funcionario"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="projeto1.Aluno"/>
+</qualifiedTypeNameHistroy>
