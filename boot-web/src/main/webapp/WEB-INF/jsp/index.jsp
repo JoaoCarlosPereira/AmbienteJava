@@ -6,6 +6,15 @@
 <title>Spring-Boot-MVC</title>
 </head>
 <body>
-	Funcionou ${valor} teste
+	Funcionou ${valor}.
+
+
+	<form action="/enviar" method="post">
+		<input type="text" name="nome" value="${nome}"/> 
+		<input type="text" name="sobrenome" value="${sobrenome}"/>
+		<input type="submit" value="enviar" />
+	</form>
+
+
 </body>
 </html>

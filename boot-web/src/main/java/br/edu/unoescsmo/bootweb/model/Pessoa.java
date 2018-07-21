@@ -2,9 +2,13 @@ package br.edu.unoescsmo.bootweb.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.Size;
 
 @Entity
 public class Pessoa {
@@ -21,10 +25,16 @@ public class Pessoa {
 	private Long codigo;
 
 	@Column(length = 150, nullable = false)
+	@NotEmpty(message = "nome deve ser preenchido")
 	private String nome;
 
 	@Column(length = 11)
+	@Size(max = 11, message = "tamanho não pode ultrapassar 11 caractéres.")
 	private String cpf;
+
+	@ManyToOne(fetch=FetchType.LAZY)
+	private Cidade naturalidade;
+	
 
 	public Long getCodigo() {
 		return codigo;
@@ -54,6 +64,13 @@ public class Pessoa {
 	public String toString() {
 		return "Pessoa [codigo=" + codigo + ", nome=" + nome + "]";
 	}
-	
-	
+
+	public Cidade getNaturalidade() {
+		return naturalidade;
+	}
+
+	public void setNaturalidade(Cidade naturalidade) {
+		this.naturalidade = naturalidade;
+	}
+
 }
