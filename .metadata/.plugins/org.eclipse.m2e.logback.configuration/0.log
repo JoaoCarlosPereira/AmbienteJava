@@ -2268,3 +2268,196 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:j
 2018-07-07 15:44:46,814 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2018-07-07 15:44:46,819 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2018-07-07 15:44:46,829 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 20:34:50,550 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-07-20 20:35:47,113 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: br.edu.unoescsmo:boot-web:0.0.1-SNAPSHOT @ C:\Users\João Carlos\eclipse-workspace\boot-web\pom.xml.
+2018-07-20 20:35:47,113 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: br.edu.unoescsmo:boot-web:0.0.1-SNAPSHOT @ C:\Users\João Carlos\eclipse-workspace\boot-web\pom.xml.
+2018-07-20 20:35:57,555 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/3.0.0/maven-clean-plugin-3.0.0.pom
+2018-07-20 20:35:57,946 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/3.0.0/maven-clean-plugin-3.0.0.pom
+2018-07-20 20:35:58,211 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/28/maven-plugins-28.pom
+2018-07-20 20:35:58,863 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/28/maven-plugins-28.pom
+2018-07-20 20:36:14,302 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 20:36:14,313 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-20 20:36:14,387 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 20:36:14,393 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 20:36:14,394 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\João Carlos\eclipse-workspace\boot-web\src\test\resources
+2018-07-20 20:36:17,810 [Worker-3] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\João Carlos\eclipse-workspace\boot-web
+2018-07-20 20:36:17,812 [Worker-3] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-07-20 20:36:22,427 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: br.edu.unoescsmo:boot-web:0.0.1-SNAPSHOT @ C:\Users\João Carlos\eclipse-workspace\boot-web\pom.xml.
+2018-07-20 20:36:48,025 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 20:36:48,078 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 20:36:48,079 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 20:36:48,102 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 20:36:48,102 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\João Carlos\eclipse-workspace\boot-web\src\test\resources
+2018-07-20 20:36:51,957 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 20:36:51,977 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-20 20:36:52,024 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 20:36:52,029 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 20:36:52,042 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\João Carlos\eclipse-workspace\boot-web\src\test\resources
+2018-07-20 20:37:56,108 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: br.edu.unoescsmo:boot-web:0.0.1-SNAPSHOT @ C:\Users\João Carlos\eclipse-workspace\boot-web\pom.xml.
+2018-07-20 20:38:00,661 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 20:38:00,675 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 20:38:00,684 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 20:38:00,689 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 20:38:00,700 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\João Carlos\eclipse-workspace\boot-web\src\test\resources
+2018-07-20 20:38:00,700 [Worker-14] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of boot-web
+2018-07-20 20:38:00,710 [Worker-14] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for boot-web
+2018-07-20 20:38:00,718 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 20:50:49,768 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-07-20 20:51:21,404 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 20:51:21,413 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-20 20:51:21,468 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 20:51:21,474 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 20:51:21,475 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\João Carlos\eclipse-workspace\boot-web\src\test\resources
+2018-07-20 20:52:05,967 [Worker-3] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\João Carlos\eclipse-workspace\boot-web
+2018-07-20 20:52:05,969 [Worker-3] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-07-20 20:52:29,693 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 20:52:29,708 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-20 20:52:29,712 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 20:52:29,716 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 20:52:29,716 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\João Carlos\eclipse-workspace\boot-web\src\test\resources
+2018-07-20 20:58:49,653 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 20:58:49,654 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 20:58:49,658 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 20:58:49,688 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 20:58:49,688 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\João Carlos\eclipse-workspace\boot-web\src\test\resources
+2018-07-20 20:59:06,882 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 20:59:06,883 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 20:59:06,991 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 20:59:07,032 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 20:59:07,063 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\João Carlos\eclipse-workspace\boot-web\src\test\resources
+2018-07-20 21:01:52,919 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:01:53,027 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 21:01:53,041 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 21:01:53,055 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:01:53,055 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\João Carlos\eclipse-workspace\boot-web\src\test\resources
+2018-07-20 21:04:00,663 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:04:00,665 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-20 21:04:00,680 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 21:04:00,685 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:04:00,699 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\João Carlos\eclipse-workspace\boot-web\src\test\resources
+2018-07-20 21:04:27,852 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2018-07-20 21:06:41,484 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:06:41,498 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-20 21:06:41,513 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 21:06:41,518 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:06:41,522 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\João Carlos\eclipse-workspace\boot-web\src\test\resources
+2018-07-20 21:06:57,972 [Worker-34] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\João Carlos\eclipse-workspace\boot-web
+2018-07-20 21:06:57,973 [Worker-34] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2018-07-20 21:07:03,876 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:07:03,878 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-20 21:07:03,895 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 21:07:03,912 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:07:03,913 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\João Carlos\eclipse-workspace\boot-web\src\test\resources
+2018-07-20 21:07:03,914 [Worker-28] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of boot-web
+2018-07-20 21:07:03,916 [Worker-28] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for boot-web
+2018-07-20 21:07:04,027 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:07:18,348 [Worker-31] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\João Carlos\eclipse-workspace\boot-web
+2018-07-20 21:07:18,348 [Worker-31] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-07-20 21:07:36,748 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:07:36,749 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-20 21:07:36,755 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 21:07:36,759 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:07:36,760 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\João Carlos\eclipse-workspace\boot-web\src\test\resources
+2018-07-20 21:09:37,171 [Worker-28] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\João Carlos\eclipse-workspace\boot-web
+2018-07-20 21:09:37,171 [Worker-28] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B generate-sources
+2018-07-20 21:09:47,844 [Worker-19] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\João Carlos\eclipse-workspace\boot-web
+2018-07-20 21:09:47,853 [Worker-19] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-07-20 21:10:02,111 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:10:02,113 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-20 21:10:02,139 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 21:10:02,160 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:10:02,175 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\João Carlos\eclipse-workspace\boot-web\src\test\resources
+2018-07-20 21:10:44,676 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:10:44,678 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-20 21:10:44,686 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 21:10:44,706 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:10:44,719 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\João Carlos\eclipse-workspace\boot-web\src\test\resources
+2018-07-20 21:11:35,437 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:11:35,439 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-20 21:11:35,468 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 21:11:35,488 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:11:35,508 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\João Carlos\eclipse-workspace\boot-web\src\test\resources
+2018-07-20 21:11:39,640 [Worker-35] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\João Carlos\eclipse-workspace\boot-web
+2018-07-20 21:11:39,650 [Worker-35] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-07-20 21:12:00,358 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:12:00,360 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-20 21:12:00,408 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 21:12:00,424 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:12:00,424 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\João Carlos\eclipse-workspace\boot-web\src\test\resources
+2018-07-20 21:13:13,901 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:13:13,903 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-20 21:13:13,927 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 21:13:13,944 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:13:13,963 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\João Carlos\eclipse-workspace\boot-web\src\test\resources
+2018-07-20 21:13:55,376 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:13:55,387 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-20 21:13:55,401 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 21:13:55,417 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:13:55,417 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\João Carlos\eclipse-workspace\boot-web\src\test\resources
+2018-07-20 21:14:26,752 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:14:26,754 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-20 21:14:26,759 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 21:14:26,778 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:14:26,807 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\João Carlos\eclipse-workspace\boot-web\src\test\resources
+2018-07-20 21:15:08,602 [Worker-26] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\João Carlos\eclipse-workspace\boot-web
+2018-07-20 21:15:08,615 [Worker-26] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-07-20 21:15:29,372 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:15:29,374 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-20 21:15:29,435 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 21:15:29,451 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:15:29,451 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\João Carlos\eclipse-workspace\boot-web\src\test\resources
+2018-07-20 21:17:41,540 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:17:41,544 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-20 21:17:41,621 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 21:17:41,626 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:17:41,626 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\João Carlos\eclipse-workspace\boot-web\src\test\resources
+2018-07-20 21:17:55,337 [Worker-32] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\João Carlos\eclipse-workspace\boot-web
+2018-07-20 21:17:55,337 [Worker-32] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-07-20 21:18:23,019 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:18:23,042 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-20 21:18:23,072 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 21:18:23,075 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:18:23,075 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\João Carlos\eclipse-workspace\boot-web\src\test\resources
+2018-07-20 21:19:58,763 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:19:58,763 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-20 21:19:58,768 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 21:19:58,772 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:19:58,780 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\João Carlos\eclipse-workspace\boot-web\src\test\resources
+2018-07-20 21:20:18,477 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: br.edu.unoescsmo:boot-web:0.0.1-SNAPSHOT @ C:\Users\João Carlos\eclipse-workspace\boot-web\pom.xml.
+2018-07-20 21:20:26,430 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:20:26,445 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 21:20:26,454 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 21:20:26,458 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:20:26,472 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\João Carlos\eclipse-workspace\boot-web\src\test\resources
+2018-07-20 21:20:26,473 [Worker-22] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of boot-web
+2018-07-20 21:20:26,492 [Worker-22] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for boot-web
+2018-07-20 21:20:26,498 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:21:42,030 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:21:42,031 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-20 21:21:42,068 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 21:21:42,072 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:21:42,072 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\João Carlos\eclipse-workspace\boot-web\src\test\resources
+2018-07-20 21:21:50,502 [Worker-26] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\João Carlos\eclipse-workspace\boot-web
+2018-07-20 21:21:50,511 [Worker-26] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-07-20 21:22:10,112 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:22:10,114 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-20 21:22:10,131 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 21:22:10,147 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:22:10,148 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\João Carlos\eclipse-workspace\boot-web\src\test\resources
+2018-07-20 21:25:49,327 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:25:49,329 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-07-20 21:25:49,354 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 21:25:49,372 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:25:49,388 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\João Carlos\eclipse-workspace\boot-web\src\test\resources
+2018-07-20 21:28:08,750 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:28:08,750 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 21:28:08,764 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 21:28:08,782 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:28:08,782 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\João Carlos\eclipse-workspace\boot-web\src\test\resources
+2018-07-20 21:28:14,560 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:28:14,560 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 21:28:14,560 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-20 21:28:14,564 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-20 21:28:14,564 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\João Carlos\eclipse-workspace\boot-web\src\test\resources
+2018-07-20 21:28:25,362 [Worker-44] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\João Carlos\eclipse-workspace\boot-web
+2018-07-20 21:28:25,362 [Worker-44] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install

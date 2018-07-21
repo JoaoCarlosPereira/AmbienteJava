@@ -48,7 +48,7 @@ public class PessoaController {
 	@GetMapping("/pessoa/cpf/{cpf}")
 	@ResponseBody
 	public List<Pessoa> listarCpf(@PathVariable("cpf") String cpf) {
-		return pessoaRegra.listarPorNome(cpf);
+		return pessoaRegra.listarPorCPF(cpf);
 	}
 
 	@GetMapping("/pessoa/nome/{nome}")
