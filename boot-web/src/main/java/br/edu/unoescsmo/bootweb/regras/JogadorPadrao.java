@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import br.edu.unoescsmo.bootweb.model.Jogador;
+import br.edu.unoescsmo.bootweb.model.Time;
 import br.edu.unoescsmo.bootweb.repository.JogadorRepository;
 @Service
 public class JogadorPadrao implements JogadorRegra {
@@ -20,6 +21,11 @@ public class JogadorPadrao implements JogadorRegra {
 	@Override
 	public void delete(Jogador jogador) {
 		jogadorRepository.delete(jogador);
+	}
+
+	@Override
+	public Jogador buscarJogador(Long codigo) {
+		return jogadorRepository.findById(codigo).orElse(new Jogador());
 	}
 
 }

@@ -10,6 +10,6 @@ import br.edu.unoescsmo.bootweb.model.Jogador;
 
 public interface JogadorRepository extends JpaRepository<Jogador, Long> {
 
-	@Query("select j from Jogador j")
-	List<Jogador> dadosGrid();
+	@Query("select j from Jogador j inner join Escalacao p on j.codigo = p.jogador where p.time = :time")
+	List<Jogador> listarEscalacao(@Param("time") Long time);
 }

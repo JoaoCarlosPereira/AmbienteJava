@@ -9,7 +9,7 @@
   <link rel="icon" type="image/png" href="<c:url value="/resources/assets/img/favicon.png"/>">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    Material Dashboard by Creative Tim
+    Futebol
   </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <!--     Fonts and icons     -->
@@ -36,30 +36,30 @@
       </div>
       <div class="sidebar-wrapper">
         <ul class="nav">
-          <li class="nav-item active ">
-            <a class="nav-link" href="./user.html">
+          <li class="nav-item">
+            <a class="nav-link" href="/futebol/jogador">
               <i class="material-icons">person</i>
               <p>Cadastro de Jogadores</p>
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./user.html">
-              <i class="material-icons">person</i>
+          <li class="nav-item active">
+            <a class="nav-link" href="/futebol/time">
+              <i class="material-icons">control_point</i>
               <p>Cadastro de Times</p>
             </a>
-          </li>          
+          </li>  
+		  <li class="nav-item">
+            <a class="nav-link" href="/futebol/escalacao">
+              <i class="material-icons">group</i>
+              <p>Escalação</p>
+            </a>
+          </li>
           <li class="nav-item ">
-            <a class="nav-link" href="./tables.html">
+            <a class="nav-link" href="/futebol/listar">
               <i class="material-icons">content_paste</i>
               <p>Listar Times</p>
             </a>
           </li>
-          <!-- <li class="nav-item active-pro ">
-                <a class="nav-link" href="./upgrade.html">
-                    <i class="material-icons">unarchive</i>
-                    <p>Upgrade to PRO</p>
-                </a>
-            </li> -->
         </ul>
       </div>
     </div>
@@ -68,7 +68,7 @@
       <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
         <div class="container-fluid">
           <div class="navbar-wrapper">
-            <a class="navbar-brand" href="#pablo">Jogadores</a>
+            <a class="navbar-brand" href="#pablo">Times</a>
           </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
             <span class="sr-only">Toggle navigation</span>
@@ -85,55 +85,29 @@
             <div class="col-md-8">
               <div class="card">
                 <div class="card-header card-header-primary">
-                  <h4 class="card-title">Perfil</h4>
-                  <p class="card-category">complete o perfil do jogador</p>
+                  <h4 class="card-title">Time</h4>
+                  <p class="card-category">cadastre um novo time</p>
                 </div>
                 <div class="card-body">
-                  <form action="/jogador/salvar" method="post">
+				 <c:set var="selecionado" value="hidden" />
+				 <c:if test="${time.codigo > 0}">
+				   <c:set var="selecionado" value="button" />
+				 </c:if>				 
+                 <form action="/futebol/time/salvar" method="post">
+				  <input type="hidden" name="codigo" value="${time.codigo}" />
                     <div class="row">
                       <div class="col-md-12">
                         <div class="form-group">
-                          <label class="bmd-label-floating" for="nome">Nome</label>
-                          <input type="text" name="nome"  id="nome" class="form-control">
+                          <label class="bmd-label-floating"  for="nome">Nome do time</label>
+                          <input type="text" name="nome" id="nome" class="form-control" value="${time.nome}">
                         </div>
                       </div>
                     </div>
-                    <div class="row">
-                      <div class="col-md-4">
-                        <div class="form-group">
-                          <label class="bmd-label-floating" for="idade">Idade</label>
-                          <input type="numer" name="idade" id="idade" class="form-control">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-12">
-                        <div class="form-group">
-                          <label class="bmd-label-floating" for="posicao">Posição</label>
-                          <input type="text" name="posicao" id="posicao" class="form-control">
-                        </div>
-                      </div>
-                    </div>
-                    <button type="submit" class="btn btn-primary pull-right CorVerde">Salvar</button>
+					<a href="/futebol/time"><input type="${selecionado}" class="btn btn-primary pull-right CorVerde" value="Cancelar"></a>	
+                    <a href="/futebol/time/deletar/${time.codigo}"><input type="${selecionado}" class="btn btn-primary pull-right CorVerde" value="Excluir"></a>
+					<button type="submit" class="btn btn-primary pull-right CorVerde">Salvar</button>
                     <div class="clearfix"></div>
                   </form>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card card-profile">
-                <div class="card-avatar">
-                  <a href="#pablo">
-                    <img class="img" src="<c:url value="/resources/assets/img/faces/marc.jpg" />" />
-                  </a>
-                </div>
-                <div class="card-body">
-                  <h6 class="card-category text-gray"></h6>
-                  <h4 class="card-title"></h4>
-                  <p class="card-description">
-     
-                  </p>
-                  <a href="#pablo" class="btn btn-primary btn-round CorVerde">Caregar Imagem</a>
                 </div>
               </div>
             </div>

@@ -6,4 +6,6 @@ public interface TimeRegra {
 	void salvar(Time time);
 
 	void delete(Time time);
+	
+	Time buscarTime(Long codigo);
 }
