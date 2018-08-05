@@ -1,7 +1,5 @@
 package br.edu.unoescsmo.bootweb.regras;
 
-import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

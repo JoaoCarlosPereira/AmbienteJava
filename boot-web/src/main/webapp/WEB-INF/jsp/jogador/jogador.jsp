@@ -99,7 +99,7 @@
                       <div class="col-md-12">
                         <div class="form-group">
                           <label class="bmd-label-floating" for="nome">Nome</label>
-                          <input type="text" name="nome"  id="nome" class="form-control" value="${jogador.nome}">
+                          <input type="text" name="nome"  id="nome" class="form-control" value="${jogador.nome}" required="">
                         </div>
                       </div>
                     </div>
@@ -107,7 +107,7 @@
                       <div class="col-md-4">
                         <div class="form-group">
                           <label class="bmd-label-floating" for="idade">Idade</label>
-                          <input type="numer" name="idade" id="idade" class="form-control" value="${jogador.idade}">
+                          <input type="numer" name="idade" id="idade" class="form-control" value="${jogador.idade}" required="">
                         </div>
                       </div>
                     </div>
@@ -115,7 +115,7 @@
                       <div class="col-md-12">
                         <div class="form-group">
                           <label class="bmd-label-floating" for="posicao">Posição</label>
-                          <input type="text" name="posicao" id="posicao" class="form-control" value="${jogador.posicao}">
+                          <input type="text" name="posicao" id="posicao" class="form-control" value="${jogador.posicao}" required="">
                         </div>
                       </div>
                     </div>

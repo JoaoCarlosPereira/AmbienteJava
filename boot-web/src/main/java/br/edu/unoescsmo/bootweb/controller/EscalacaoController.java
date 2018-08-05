@@ -12,9 +12,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import br.edu.unoescsmo.bootweb.model.Escalacao;
-import br.edu.unoescsmo.bootweb.model.Time;
 import br.edu.unoescsmo.bootweb.regras.EscalacaoRegra;
-import br.edu.unoescsmo.bootweb.regras.TimeRegra;
 import br.edu.unoescsmo.bootweb.repository.EscalacaoRepository;
 import br.edu.unoescsmo.bootweb.repository.JogadorRepository;
 import br.edu.unoescsmo.bootweb.repository.TimeRepository;

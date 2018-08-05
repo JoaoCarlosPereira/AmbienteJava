@@ -12,11 +12,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import br.edu.unoescsmo.bootweb.model.Jogador;
-import br.edu.unoescsmo.bootweb.model.Pessoa;
-import br.edu.unoescsmo.bootweb.model.Time;
 import br.edu.unoescsmo.bootweb.regras.JogadorRegra;
-import br.edu.unoescsmo.bootweb.repository.CidadeRepository;
-import br.edu.unoescsmo.bootweb.repository.JogadorRepository;
 
 @Controller
 @RequestMapping("/futebol")
@@ -24,9 +20,6 @@ public class JogadorController {
 
 	@Autowired
 	private JogadorRegra jogadorRegra;
-
-	@Autowired
-	private JogadorRepository jogadorRepository;
 
 	@PostMapping("/jogador/salvar")
 	public String salvar(@Valid Jogador jogador, BindingResult erros) {

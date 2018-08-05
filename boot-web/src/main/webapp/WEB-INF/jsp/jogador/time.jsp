@@ -99,7 +99,7 @@
                       <div class="col-md-12">
                         <div class="form-group">
                           <label class="bmd-label-floating"  for="nome">Nome do time</label>
-                          <input type="text" name="nome" id="nome" class="form-control" value="${time.nome}">
+                          <input type="text" name="nome" id="nome" class="form-control" value="${time.nome}" required="">
                         </div>
                       </div>
                     </div>

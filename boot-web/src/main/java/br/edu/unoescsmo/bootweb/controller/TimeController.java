@@ -11,11 +11,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import br.edu.unoescsmo.bootweb.model.Jogador;
 import br.edu.unoescsmo.bootweb.model.Time;
-import br.edu.unoescsmo.bootweb.regras.JogadorRegra;
 import br.edu.unoescsmo.bootweb.regras.TimeRegra;
-import br.edu.unoescsmo.bootweb.repository.JogadorRepository;
 import br.edu.unoescsmo.bootweb.repository.TimeRepository;
 
 @Controller

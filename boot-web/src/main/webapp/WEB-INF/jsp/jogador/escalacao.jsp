@@ -94,7 +94,7 @@
 					  <div class="col-md-12">
 						<div class="form-group">
 						  <label class="bmd-label-floating" for="time">Time</label>
-						  <select name="time" class="form-control">
+						  <select name="time" class="form-control" required="">
 	                         <option></option>
 	                         <c:forEach items="${times}" var="time">
 	                         	<option value="${time.codigo}">${time.nome}</option>
@@ -107,7 +107,7 @@
 					  <div class="col-md-12">
 						<div class="form-group">
 						  <label class="bmd-label-floating" for="jogador">Jogador</label>
-						  <select name="jogador" class="form-control">
+						  <select name="jogador" class="form-control" required="">
 	                         <option></option>
 	                         <c:forEach items="${jogadores}" var="jogador">
 	                         	<option value="${jogador.codigo}">${jogador.nome}</option>
